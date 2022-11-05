@@ -2,6 +2,18 @@
 #this is a simple File Encrypter [Ransomeware]
 # Instaltion
 ```
-git clone https://github.com/kunalmannu/voldemort.git && pip install -r requirements.txt
+sudo git clone https://github.com/kunalmannu/voldemort.git 
+```
+```
+cd voldemort
+```
+```
+pip install -r requirements.txt
+```
+```
+sudo mv voldemort.py /home/kali/
+```
+```
+python3 voldemort.py
 ```
 # THANK YOU
