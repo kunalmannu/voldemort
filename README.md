@@ -11,9 +11,6 @@ cd voldemort
 pip install -r requirements.txt
 ```
 ```
-sudo mv voldemort.py /home/kali/
-```
-```
-python3 /home/kali/voldemort.py
+sudo python3 voldemort.py
 ```
 # THANK YOU
