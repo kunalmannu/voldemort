@@ -14,6 +14,6 @@ pip install -r requirements.txt
 sudo mv voldemort.py /home/kali/
 ```
 ```
-python3 voldemort.py
+python3 /home/kali/voldemort.py
 ```
 # THANK YOU
