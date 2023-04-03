@@ -1,4 +1,4 @@
-# voldemort
+# Voldemort
 #this is a simple File Encrypter [Ransomeware]
 # Instaltion
 ```
@@ -13,4 +13,5 @@ pip install -r requirements.txt
 ```
 sudo python3 voldemort.py
 ```
-# THANK YOU
+# Demo
+
