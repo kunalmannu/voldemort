@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ```
 sudo python3 voldemort.py
 ```
-# Demo
+ # Thank You
 
