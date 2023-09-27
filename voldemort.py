@@ -1,3 +1,6 @@
+#Made By KunalMannu
+#Credits networkchuck
+#Thank You
 import os
 
 from cryptography.fernet import Fernet
